@@ -1,0 +1,12 @@
+name = "github-readme-stats"
+type = "service"
+main = "express.js"
+compatibility_date = "2026-02-20"
+node_compat = true
+
+[env.production]
+name = "github-readme-stats-prod"
+
+[[routes]]
+pattern = "/*"
+zone_name = "example.com"
